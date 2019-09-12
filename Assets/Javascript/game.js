@@ -26,11 +26,20 @@ let userChoice = [];
 
 //record user's letter choice.
     document.onkeyup = function(event) {
+        console.log(event.key)
         userChoice.push(event.key);
         console.log('userChoice:',userChoice)
         document.getElementById("lettersGuessed").innerHTML = userChoice;
     }
     
+    if (userChoice > -1) {
+
+
+
+    } else {
+        alert("Please choose a valid letter.");
+    }
+
     //compare computer choice to user choice.
     if (computerChoice === userChoice) {
         console.log("You won!");
@@ -69,6 +78,6 @@ let userChoice = [];
             }
         //this is an html element, but where is it in the html file (set id = letters guessed in html?
         document.getElementById("lettersGuessed").innerHTML = lettersGuessed;
-        $("#guessesLeft").text(guessesLeft);
+        $("#guessesLeft").text(guessesLeft);8
     }
     
