@@ -81,5 +81,3 @@ document.onkeydown = function(event) {
     reset();
   }
 };
-
-// Test text
