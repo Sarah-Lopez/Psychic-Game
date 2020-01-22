@@ -4,26 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Psychic Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+  <div class="container">
+    <h1>Psychic Game</h1>
 
-  <!-- The title of the page -->
-  <h1>The Psychic Game</h1>
+    <p>Guess what letter I'm thinking of!</p>
 
-  <p>Guess what letter I'm thinking of</p>
+    <!-- Win counter, initially showing 0. -->
+    <p>Wins: <span id="wins">0</span></p>
 
-  <!-- This is where we will have the win counter in HTML. It initially shows 0  -->
-  <p>Wins: <span id="wins">0</span></p>
+    <!-- Loss counter, initially showing 0. -->
+    <p>Losses: <span id="losses">0</span></p>
 
-  <!-- This is where we will have the loss counter in HTML. It initially shows 0 -->
-  <p>Losses: <span id="losses">0</span></p>
+    <!-- Guesses left counter, initially showing 9. -->
+    <p>Guesses Left: <span id="guesses-left"></span></p>
 
-  <!-- This is where we will post the guessesLeft. Initially nothing is shown. -->
-  <p>Guesses Left: <span id="guesses-left"></span></p>
-
-  <!-- This is where we will post the guessesSoFar. Initially nothing is shown. -->
-  <p>Your Guesses so far: <span id="guesses-so-far"></span></p>
+    <!-- Guesses so far, initially showing nothing. -->
+    <p>Your Guesses so far: <span id="guesses-so-far"></span></p>
+  </div>
 
   <!-- Link to JavaScript game.js -->
   <script type="text/javascript" src="assets/javascript/game.js"></script>
