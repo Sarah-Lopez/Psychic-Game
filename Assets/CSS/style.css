@@ -1,5 +1,6 @@
 body {
   margin-top: 10%;
+  margin-left: 5%;
   text-align: center;
   background-image: url("../images/crystal_ball.png");
   background-repeat: no-repeat;
@@ -25,4 +26,8 @@ body {
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
+}
+
+#h1 {
+  font-size: 40px;
 }
