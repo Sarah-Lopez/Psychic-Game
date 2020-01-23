@@ -9,7 +9,7 @@ var letterToGuess = null;
 // This is what we'll use to count down
 var guessesLeft = 9;
 
-// This is the counter for wins/losses
+// Counter for wins/losses
 var wins = 0;
 var losses = 0;
 
